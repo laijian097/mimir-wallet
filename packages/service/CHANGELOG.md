@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/laijian097/mimir-wallet/compare/service-v2.32.0...service-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/laijian097/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/laijian097/mimir-wallet/issues/181)) ([5a8e349](https://github.com/laijian097/mimir-wallet/commit/5a8e349be661c4c78408a04079d310dda9eae06d))
+* Add cross-chain calldata display component ([#291](https://github.com/laijian097/mimir-wallet/issues/291)) ([ab37ff2](https://github.com/laijian097/mimir-wallet/commit/ab37ff204cd9f86e76b3071d3f9d1c0f08aebbad))
+* Add dry run API support for transaction simulation ([#207](https://github.com/laijian097/mimir-wallet/issues/207)) ([fff9f9e](https://github.com/laijian097/mimir-wallet/commit/fff9f9e45ce0e4243e768455eb5f11c3097a8492))
+* Add notification center feature ([#282](https://github.com/laijian097/mimir-wallet/issues/282)) ([b3bb7f1](https://github.com/laijian097/mimir-wallet/commit/b3bb7f164cbd4447be3a57a2cdbe61298ec67dc4))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/laijian097/mimir-wallet/issues/171)) ([88b3046](https://github.com/laijian097/mimir-wallet/commit/88b30463824529cb7dd00f30b4c05c39e49cfb97))
+* Add remote proxy support ([#236](https://github.com/laijian097/mimir-wallet/issues/236)) ([35177fe](https://github.com/laijian097/mimir-wallet/commit/35177fe513f3d65762deda689305421bccd40eb4))
+* add transaction subscription functionality ([#213](https://github.com/laijian097/mimir-wallet/issues/213)) ([20541af](https://github.com/laijian097/mimir-wallet/commit/20541af4c0c169a1b609fb07e395bd99961c9fe1))
+* Add zkVerify testnet supported ([#251](https://github.com/laijian097/mimir-wallet/issues/251)) ([9af12dd](https://github.com/laijian097/mimir-wallet/commit/9af12dd6320880db71b18549d3021dd01f35eccc))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/laijian097/mimir-wallet/issues/198)) ([7ddfebf](https://github.com/laijian097/mimir-wallet/commit/7ddfebff190f75f094d96155bf0dfe2186cc23a0))
+* Improve UI display and user experience ([#218](https://github.com/laijian097/mimir-wallet/issues/218)) ([b826092](https://github.com/laijian097/mimir-wallet/commit/b826092a6688f18a3a44f21784d8e9b6505a3e9a))
+* Optimize balance retrieval logic ([#311](https://github.com/laijian097/mimir-wallet/issues/311)) ([f5d7f88](https://github.com/laijian097/mimir-wallet/commit/f5d7f88896fe9bf09b1f4d479ec1edd102f9a13c))
+* remove assethub next westend network ([#232](https://github.com/laijian097/mimir-wallet/issues/232)) ([e7fbf2b](https://github.com/laijian097/mimir-wallet/commit/e7fbf2ba6f27a04a9d2060a3850af6c38107d0f6))
+* remove batch restore functionality ([#204](https://github.com/laijian097/mimir-wallet/issues/204)) ([b995de7](https://github.com/laijian097/mimir-wallet/commit/b995de7df349c3cfc7bc69cdbf164ae36517860e))
+* subscribe wallet accounts changed ([#176](https://github.com/laijian097/mimir-wallet/issues/176)) ([df9e422](https://github.com/laijian097/mimir-wallet/commit/df9e422fb78a2af95dd9aa3124315297bf1d064f))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/laijian097/mimir-wallet/issues/261)) ([36aad51](https://github.com/laijian097/mimir-wallet/commit/36aad51f6d98401c0a3143f9773ccecc1a2ea00a))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/laijian097/mimir-wallet/issues/267)) ([c4e4804](https://github.com/laijian097/mimir-wallet/commit/c4e48040400fad757041c63f4b1dd35bdf57ee5f))
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.31.0...service-v2.32.0) (2025-10-14)
 
 

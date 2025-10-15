@@ -1,5 +1,113 @@
 # Changelog
 
+## [3.0.0](https://github.com/laijian097/mimir-wallet/compare/mimir-wallet-app-v2.32.0...mimir-wallet-app-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/laijian097/mimir-wallet/issues/198))
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/laijian097/mimir-wallet/issues/323)) ([5b6b80c](https://github.com/laijian097/mimir-wallet/commit/5b6b80c1adeb1fd2c3e301269eeb8d16e6bc5cca))
+* add ai assistant for mimir ([#319](https://github.com/laijian097/mimir-wallet/issues/319)) ([0d4b0a2](https://github.com/laijian097/mimir-wallet/commit/0d4b0a2627a13e383637b8199857a76ed44382e2))
+* Add astar network support ([#230](https://github.com/laijian097/mimir-wallet/issues/230)) ([af88c28](https://github.com/laijian097/mimir-wallet/commit/af88c282f2c5b16fbe4e7700682d1fc5911f12bd))
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/laijian097/mimir-wallet/issues/181)) ([5a8e349](https://github.com/laijian097/mimir-wallet/commit/5a8e349be661c4c78408a04079d310dda9eae06d))
+* add comprehensive analytics tracking for user interactions ([#326](https://github.com/laijian097/mimir-wallet/issues/326)) ([44ab352](https://github.com/laijian097/mimir-wallet/commit/44ab3527b6f87f5a806bda95f1b7c2938093e64e))
+* Add conviction voting display ([#273](https://github.com/laijian097/mimir-wallet/issues/273)) ([8fd8ccb](https://github.com/laijian097/mimir-wallet/commit/8fd8ccb18fdc49e29d55613fbda3bc1f661a002c))
+* Add cross-chain calldata display component ([#291](https://github.com/laijian097/mimir-wallet/issues/291)) ([ab37ff2](https://github.com/laijian097/mimir-wallet/commit/ab37ff204cd9f86e76b3071d3f9d1c0f08aebbad))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/laijian097/mimir-wallet/issues/285)) ([501c0ae](https://github.com/laijian097/mimir-wallet/commit/501c0ae1052deb59999aa7b64afcb300329ba08f))
+* add delete address book functionality ([#190](https://github.com/laijian097/mimir-wallet/issues/190)) ([1585775](https://github.com/laijian097/mimir-wallet/commit/15857752bc526598bc619bd08e00d8b5f4f3c5ea))
+* Add dry run API support for transaction simulation ([#207](https://github.com/laijian097/mimir-wallet/issues/207)) ([fff9f9e](https://github.com/laijian097/mimir-wallet/commit/fff9f9e45ce0e4243e768455eb5f11c3097a8492))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/laijian097/mimir-wallet/issues/309)) ([0bb4ec8](https://github.com/laijian097/mimir-wallet/commit/0bb4ec8c4238f9b3e8e134c0542d655e4126ba58))
+* add global account search and refactor UI components ([#167](https://github.com/laijian097/mimir-wallet/issues/167)) ([189637b](https://github.com/laijian097/mimir-wallet/commit/189637b4313c47e5eba596a8240dd347a9185da0))
+* Add group by date for transaction ([#284](https://github.com/laijian097/mimir-wallet/issues/284)) ([d296052](https://github.com/laijian097/mimir-wallet/commit/d296052514e238b5a4456a22df6f835b940d0581))
+* Add moonbeam and tanssi network support ([#327](https://github.com/laijian097/mimir-wallet/issues/327)) ([fd94aaa](https://github.com/laijian097/mimir-wallet/commit/fd94aaab26bbe6dd366992d579f226f6fdab378e))
+* Add multi-transfer app ([#271](https://github.com/laijian097/mimir-wallet/issues/271)) ([f97923a](https://github.com/laijian097/mimir-wallet/commit/f97923aa558db0ac9662564ae0e743a47d06c404))
+* Add notification center feature ([#282](https://github.com/laijian097/mimir-wallet/issues/282)) ([b3bb7f1](https://github.com/laijian097/mimir-wallet/commit/b3bb7f164cbd4447be3a57a2cdbe61298ec67dc4))
+* add permission check when submit transaction ([#164](https://github.com/laijian097/mimir-wallet/issues/164)) ([156174d](https://github.com/laijian097/mimir-wallet/commit/156174d266082ff10ba8dd6f31657a07a37dc319))
+* Add polkassembly app supported ([#265](https://github.com/laijian097/mimir-wallet/issues/265)) ([4cb5c35](https://github.com/laijian097/mimir-wallet/commit/4cb5c35429b2ccec43fa46e86aaa429a5d994ba0))
+* add posthog integration ([#276](https://github.com/laijian097/mimir-wallet/issues/276)) ([2bf76be](https://github.com/laijian097/mimir-wallet/commit/2bf76be8ca091e5e985ab046842a030ed12fb369))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/laijian097/mimir-wallet/issues/171)) ([88b3046](https://github.com/laijian097/mimir-wallet/commit/88b30463824529cb7dd00f30b4c05c39e49cfb97))
+* Add regoinx dapp support ([57ab3a1](https://github.com/laijian097/mimir-wallet/commit/57ab3a11a2c7c0a5cad1961024bd20eddae8b7b9))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/laijian097/mimir-wallet/issues/321)) ([387a61c](https://github.com/laijian097/mimir-wallet/commit/387a61cc46722510c997b9fd477a9bfab87368a3))
+* Add remote proxy support ([#236](https://github.com/laijian097/mimir-wallet/issues/236)) ([35177fe](https://github.com/laijian097/mimir-wallet/commit/35177fe513f3d65762deda689305421bccd40eb4))
+* Add sonner to replace react-toastify ([#280](https://github.com/laijian097/mimir-wallet/issues/280)) ([89ebd3f](https://github.com/laijian097/mimir-wallet/commit/89ebd3f3888b6b0acb9f7c143f6624314b9ef6b3))
+* add template detail view functionality ([#174](https://github.com/laijian097/mimir-wallet/issues/174)) ([ef8bf6e](https://github.com/laijian097/mimir-wallet/commit/ef8bf6e0ec4ae6332deec34ba9d555513dae729b))
+* Add tooltip for favorite dapp items ([#275](https://github.com/laijian097/mimir-wallet/issues/275)) ([8b736a1](https://github.com/laijian097/mimir-wallet/commit/8b736a1d04e11078b157e694bf2a9dae847f22d5))
+* add transaction subscription functionality ([#213](https://github.com/laijian097/mimir-wallet/issues/213)) ([20541af](https://github.com/laijian097/mimir-wallet/commit/20541af4c0c169a1b609fb07e395bd99961c9fe1))
+* add visible field to DappOption for display control ([#305](https://github.com/laijian097/mimir-wallet/issues/305)) ([c1201fd](https://github.com/laijian097/mimir-wallet/commit/c1201fd4bc9b194ef017066b08f48cc0d65f4582))
+* Add walletconnect in dapp page ([#217](https://github.com/laijian097/mimir-wallet/issues/217)) ([5e8d305](https://github.com/laijian097/mimir-wallet/commit/5e8d305f14e85c8e29ff8d017e25ac5d36c0fc8b))
+* Add zkverify mainnet support ([#312](https://github.com/laijian097/mimir-wallet/issues/312)) ([9329ed6](https://github.com/laijian097/mimir-wallet/commit/9329ed6ab1033e49d5809e774f29e0435d56d923))
+* Add zkVerify testnet supported ([#251](https://github.com/laijian097/mimir-wallet/issues/251)) ([9af12dd](https://github.com/laijian097/mimir-wallet/commit/9af12dd6320880db71b18549d3021dd01f35eccc))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/laijian097/mimir-wallet/issues/215)) ([2b3b08c](https://github.com/laijian097/mimir-wallet/commit/2b3b08c138af3b61b0147aaee2b2ea2875653f90))
+* change polkadot cloud staking app informations ([#307](https://github.com/laijian097/mimir-wallet/issues/307)) ([9dad9c6](https://github.com/laijian097/mimir-wallet/commit/9dad9c65319fa5ea28f1e8a48e81ae142cd656f4))
+* **dapp:** Add bounties app developed by the PAPI team ([#262](https://github.com/laijian097/mimir-wallet/issues/262)) ([ff43220](https://github.com/laijian097/mimir-wallet/commit/ff4322038f0beaedb238a96dbce4251accfb10ff))
+* **dapp:** implement custom dapp management system ([#249](https://github.com/laijian097/mimir-wallet/issues/249)) ([6c5d1ae](https://github.com/laijian097/mimir-wallet/commit/6c5d1ae7fc6ba8ea776997c23917717e751f2d94))
+* distinguish between transactions already added to batch and those not yet added in Restore page to prevent duplicate additions ([#200](https://github.com/laijian097/mimir-wallet/issues/200)) ([b7fc0cc](https://github.com/laijian097/mimir-wallet/commit/b7fc0cc4f761f2c9bf610b4e82abe7ceb12153c9))
+* enable restore batch from remote ([#173](https://github.com/laijian097/mimir-wallet/issues/173)) ([2f601d7](https://github.com/laijian097/mimir-wallet/commit/2f601d76c938a3c2ef102b3d1f610226cf8f7446))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/laijian097/mimir-wallet/issues/254)) ([37c73b8](https://github.com/laijian097/mimir-wallet/commit/37c73b8feb98fbafc84d144de0191757a7a7eeea))
+* implement AssetHub migration support ([#259](https://github.com/laijian097/mimir-wallet/issues/259)) ([b5cd6f5](https://github.com/laijian097/mimir-wallet/commit/b5cd6f59ce848e8905d4c5c200289559d46877fb))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/laijian097/mimir-wallet/issues/198)) ([7ddfebf](https://github.com/laijian097/mimir-wallet/commit/7ddfebff190f75f094d96155bf0dfe2186cc23a0))
+* implement success UI for multisig account creation ([#216](https://github.com/laijian097/mimir-wallet/issues/216)) ([7b280a9](https://github.com/laijian097/mimir-wallet/commit/7b280a9047e156581a8796e87e1f1f2d86d90bf8))
+* implement WalletConnect integration for seamless dApp connections ([#206](https://github.com/laijian097/mimir-wallet/issues/206)) ([0b8ebba](https://github.com/laijian097/mimir-wallet/commit/0b8ebbabdff8bbdfd00538dc164b23131ca28f81))
+* Improve UI display and user experience ([#218](https://github.com/laijian097/mimir-wallet/issues/218)) ([b826092](https://github.com/laijian097/mimir-wallet/commit/b826092a6688f18a3a44f21784d8e9b6505a3e9a))
+* migrate some ui components to shadcn ([#278](https://github.com/laijian097/mimir-wallet/issues/278)) ([1fbe31b](https://github.com/laijian097/mimir-wallet/commit/1fbe31bad161553422ed723f81ddf89bc58139f5))
+* Optimize balance retrieval logic ([#311](https://github.com/laijian097/mimir-wallet/issues/311)) ([f5d7f88](https://github.com/laijian097/mimir-wallet/commit/f5d7f88896fe9bf09b1f4d479ec1edd102f9a13c))
+* optimize rpc connection and improve network stability ([#193](https://github.com/laijian097/mimir-wallet/issues/193)) ([4a420ef](https://github.com/laijian097/mimir-wallet/commit/4a420ef2b885555328976c09c08c1a241c5e3d9f))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/laijian097/mimir-wallet/issues/270)) ([240ae4f](https://github.com/laijian097/mimir-wallet/commit/240ae4f4d7fdcce1e2f4af376284e2d2cea31211))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/laijian097/mimir-wallet/issues/293)) ([87f279f](https://github.com/laijian097/mimir-wallet/commit/87f279f4c6263372798bc2bbece85ed22f30c468))
+* remove assethub next westend network ([#232](https://github.com/laijian097/mimir-wallet/issues/232)) ([e7fbf2b](https://github.com/laijian097/mimir-wallet/commit/e7fbf2ba6f27a04a9d2060a3850af6c38107d0f6))
+* remove batch restore functionality ([#204](https://github.com/laijian097/mimir-wallet/issues/204)) ([b995de7](https://github.com/laijian097/mimir-wallet/commit/b995de7df349c3cfc7bc69cdbf164ae36517860e))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/laijian097/mimir-wallet/issues/162)) ([5830d3e](https://github.com/laijian097/mimir-wallet/commit/5830d3edd4e524da4b19ea7df93aae6df9b97c1b))
+* subscribe wallet accounts changed ([#176](https://github.com/laijian097/mimir-wallet/issues/176)) ([df9e422](https://github.com/laijian097/mimir-wallet/commit/df9e422fb78a2af95dd9aa3124315297bf1d064f))
+* Support eth address transfer on westend ([#234](https://github.com/laijian097/mimir-wallet/issues/234)) ([780fc52](https://github.com/laijian097/mimir-wallet/commit/780fc5223384c153d9b799c73d10c13cd1c0c099))
+* support eth address trasfer on westend assethub ([#224](https://github.com/laijian097/mimir-wallet/issues/224)) ([d9165a6](https://github.com/laijian097/mimir-wallet/commit/d9165a6ecd8a165e8e9d9582b6d88eeb79dbe666))
+* **transactions:** refactor approval flow with enhanced multisig execution ([#256](https://github.com/laijian097/mimir-wallet/issues/256)) ([b455990](https://github.com/laijian097/mimir-wallet/commit/b45599004125a8b8568f9e07636b38580903cd12))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/laijian097/mimir-wallet/issues/261)) ([36aad51](https://github.com/laijian097/mimir-wallet/commit/36aad51f6d98401c0a3143f9773ccecc1a2ea00a))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/laijian097/mimir-wallet/issues/268)) ([8302308](https://github.com/laijian097/mimir-wallet/commit/8302308afeac0f380b4677e8553578ebcd4954cf))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/laijian097/mimir-wallet/issues/267)) ([c4e4804](https://github.com/laijian097/mimir-wallet/commit/c4e48040400fad757041c63f4b1dd35bdf57ee5f))
+* Update asset price source ([#244](https://github.com/laijian097/mimir-wallet/issues/244)) ([fbae6db](https://github.com/laijian097/mimir-wallet/commit/fbae6dbe54806bf190a1e99a400c3e6ed2292dd9))
+* Update google analytic config ([#202](https://github.com/laijian097/mimir-wallet/issues/202)) ([983198c](https://github.com/laijian097/mimir-wallet/commit/983198c2765917d606538282c97bb54c3ca721a4))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/laijian097/mimir-wallet/issues/247)) ([edae3aa](https://github.com/laijian097/mimir-wallet/commit/edae3aa434e011a252c5a5c99dae3f6f7771a382))
+
+
+### Bug Fixes
+
+* Add LiquidityRestrictions error handling for reserve lock checks ([#197](https://github.com/laijian097/mimir-wallet/issues/197)) ([28b2f3d](https://github.com/laijian097/mimir-wallet/commit/28b2f3d9181c56edb40d687eb569167ea497f4d6))
+* filter proposers by network when displaying proposers ([#188](https://github.com/laijian097/mimir-wallet/issues/188)) ([5437b6d](https://github.com/laijian097/mimir-wallet/commit/5437b6d7d620f81c2e0e919b4468f7da7790265b))
+* fix batch scrollbar issue ([#182](https://github.com/laijian097/mimir-wallet/issues/182)) ([6f524df](https://github.com/laijian097/mimir-wallet/commit/6f524df48bffffffb895b47b371ad59db32dffad))
+* fix call proxy error in member set and create pure ([#195](https://github.com/laijian097/mimir-wallet/issues/195)) ([894726e](https://github.com/laijian097/mimir-wallet/commit/894726ee977f811c24afac6207380f694f749584))
+* fix create flexible multisig error when creating multisig account ([#191](https://github.com/laijian097/mimir-wallet/issues/191)) ([61d0087](https://github.com/laijian097/mimir-wallet/commit/61d008772c0a5b1f907f1ced971445cd522f0789))
+* fix dapp page layout style ([#253](https://github.com/laijian097/mimir-wallet/issues/253)) ([2ebc522](https://github.com/laijian097/mimir-wallet/commit/2ebc5226e9402d07614bb94315360b732247afe9))
+* fix icon color to use currentColor ([#186](https://github.com/laijian097/mimir-wallet/issues/186)) ([ed8f62b](https://github.com/laijian097/mimir-wallet/commit/ed8f62bad1401f5ea6d6eb0ccf0d189bf34e889d))
+* fix regionx dapp tag ([e4c4551](https://github.com/laijian097/mimir-wallet/commit/e4c4551e254014083a5843c90c3bf8ab142bba6d))
+* Fix some issues while connect wallet ([#220](https://github.com/laijian097/mimir-wallet/issues/220)) ([3a1e516](https://github.com/laijian097/mimir-wallet/commit/3a1e51617461e3520d83f4288c9998af291966e9))
+* fix some ui issues ([16422b9](https://github.com/laijian097/mimir-wallet/commit/16422b951137097ddb4a67adcfed2fd63ba04aeb))
+* Fix some UI issues ([#257](https://github.com/laijian097/mimir-wallet/issues/257)) ([0f6c704](https://github.com/laijian097/mimir-wallet/commit/0f6c704d7818442f936fcd717637443933fa780f))
+* Fix some ui issues ([#274](https://github.com/laijian097/mimir-wallet/issues/274)) ([a3a9516](https://github.com/laijian097/mimir-wallet/commit/a3a9516777364dca8ca4fc4b105880eaeeb4d665))
+* fix some ui issues ([#286](https://github.com/laijian097/mimir-wallet/issues/286)) ([68a7ee4](https://github.com/laijian097/mimir-wallet/commit/68a7ee4594fa2c250f6b9ec794cea15f88b629cb))
+* fix transfer display issue in batch call ([#184](https://github.com/laijian097/mimir-wallet/issues/184)) ([4f44968](https://github.com/laijian097/mimir-wallet/commit/4f44968f27d438c71054427004bb38ffb6284ed7))
+* Fix ui hierarchy issues ([#303](https://github.com/laijian097/mimir-wallet/issues/303)) ([811b52b](https://github.com/laijian097/mimir-wallet/commit/811b52b0d3e25cc9a8458025c8ffd62f643d1568))
+* Fixed the issue of not being able to open dapp ([12f57ba](https://github.com/laijian097/mimir-wallet/commit/12f57ba32832046799401bf0834a693a0ef35e0a))
+* Fixed the problem of empty ui and skeleton appearing at the same time ([#289](https://github.com/laijian097/mimir-wallet/issues/289)) ([137c6ec](https://github.com/laijian097/mimir-wallet/commit/137c6ec138912c1c640d048b5444571e8db58e58))
+* improve user experience and fix bugs ([#222](https://github.com/laijian097/mimir-wallet/issues/222)) ([ec3b58d](https://github.com/laijian097/mimir-wallet/commit/ec3b58db9adb90963efc422a3af600736fb63d4f))
+* modal style and account menu style ([#170](https://github.com/laijian097/mimir-wallet/issues/170)) ([4a0eb5f](https://github.com/laijian097/mimir-wallet/commit/4a0eb5f32c07464c6b01903437452308610bcbcd))
+* optimize balance fetching performance ([#228](https://github.com/laijian097/mimir-wallet/issues/228)) ([8d2b191](https://github.com/laijian097/mimir-wallet/commit/8d2b1919bc36170071c6fe4956251078efcae335))
+* optimize user experience and fix some bugs ([#226](https://github.com/laijian097/mimir-wallet/issues/226)) ([a87d895](https://github.com/laijian097/mimir-wallet/commit/a87d895d198f0f6321d1207ac4ddc8030c098f4d))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/laijian097/mimir-wallet/issues/165)) ([b8b6a02](https://github.com/laijian097/mimir-wallet/commit/b8b6a02246adebd3dbc539fa9604bbade175382c))
+* resolve transaction error caused by dryRun issue ([#211](https://github.com/laijian097/mimir-wallet/issues/211)) ([3255e07](https://github.com/laijian097/mimir-wallet/commit/3255e07a9c63169eb796590bab40488a258e95e3))
+* show cancel button for non-pure accounts ([#241](https://github.com/laijian097/mimir-wallet/issues/241)) ([23958e6](https://github.com/laijian097/mimir-wallet/commit/23958e64a7c3e5da5d0e84ee3980f9c29fe2b573))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mimir-wallet/polkadot-core bumped to 3.0.0
+    * @mimir-wallet/service bumped to 3.0.0
+    * @mimir-wallet/ui bumped to 3.0.0
+
 ## [2.32.0](https://github.com/mimir-labs/mimir-wallet/compare/mimir-wallet-app-v2.31.0...mimir-wallet-app-v2.32.0) (2025-10-14)
 
 
